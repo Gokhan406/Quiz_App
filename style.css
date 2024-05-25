@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#start_btn{
+    display: table;
+    margin:auto auto;
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-top: calc(50vh - 30px);
+    cursor: pointer;
+}
+
+.box{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(223, 223, 223);
+    display: block;
+    margin: auto auto;
+    margin-top: calc(50vh - 190px);
+    border-radius: 10px;
+}
+
+.head{
+    height: 15%;
+    padding-top: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.title{
+    font-size: 25px;
+    width: 50%;
+    float: left;
+}
+
+.süre{
+    display: inline-block;
+    width: 49%;
+}
+
+.süre > div{
+    float: right;
+    background-color: rgb(14, 38, 142);
+    height: 30px;
+    width: 115px;
+    text-align: center;
+    padding-top: 5.5px;
+    border-radius: 4px;
+}
+
+.süre > div > p{
+    display: inline-block;
+    color: white;
+}
+
+.saniye{
+    background-color: orange;
+    width: 25px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.main_app{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border: 3px rgb(223, 223, 223) solid;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.soru_metni{
+    font-size: 25px;
+}
+
+.secenek{
+    width: 100%;
+    border: 2px rgb(100, 99, 99) solid;
+    margin-top: 10px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+
+.secenek:hover{
+    background-color: orange;
+}
+
+.true{
+    background-color: greenyellow;
+}
+
+.false{
+    background-color: red;
+}
+
+.soru_sayısı{
+    background-color: orange;
+    color: white;
+    width: 45px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    float: left;
+}
+
+.sonraki_soru{
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-color: rgb(14, 38, 142);
+    color: white;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 3px white solid;
+}
